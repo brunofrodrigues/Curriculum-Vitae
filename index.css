@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Montserrat:wght@700&family=Prompt:wght@500&family=Varela+Round&display=swap');
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    
+}
+
+html {
+    background-color: #0f1014;
+}
+
+p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.5rem;
+    color: #e7dbdb;
+    border-left: 0.5rem solid #1B1D2D;
+
+}
+
+#vitae-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #161829;
+    padding: 1rem 0 0 0;
+    margin: 0.6rem 0 0 0;
+}
+
+#info {
+    background-color: #1B1D2D;
+    display: flex;
+}
+
+#bruno-img {
+    margin: 2rem 0 2rem 2rem;
+    width: 80%;
+    border-radius: 20rem;
+}
+
+
+#bruno-info h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+    color: #e7dbdb;
+}
+
+#bruno-info p {
+    /* display: flex; */
+    font-family: 'Prompt', sans-serif;
+    font-size: 2rem;
+    color: #e7dbdb;
+    margin-left: 5rem;
+
+}
+
+#bruno-info a {
+    color: #c2a5a5;
+    text-decoration: none;
+}
+
+#bruno-info a:hover {
+    opacity: 0.4;
+}
+
+#content {
+    /* display: flex; */
+    background-color: #e7dbdb;
+    padding: 2rem;
+    cursor: default;
+}
+
+#content p {
+    color: #e7dbdb;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+    background-color: #3f4152;
+    padding-left: 1rem;
+
+}
+
+#minicurriculo h2 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 3rem;
+    background-color: #BBBB;
+    padding: 1rem;
+    width: 20%;
+    border-left: 1rem solid #1B1D2D;
+}
+
+
+
+#minicurriculo p {
+    width: 35%;
+}
+
+#form-escolar {
+    margin-left: 60%;
+    /* margin-top: 10rem; */
+}
+
+#form-escolar h2 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 3rem;
+    background-color: #BBBB;
+    padding: 1rem;
+    width: 65%;
+    border-left: 1rem solid #1B1D2D;
+
+}
+
+#form-escolar ul {
+    list-style: none;
+    border-radius: 0.5rem;
+    border-left: 1rem solid #1B1D2D;
+    margin-left: 3rem;
+    width: 94%;
+}
+
+#form-escolar li {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3rem;
+    color: #e7dbdb;
+    background-color: #3f4152;
+
+}
+
+#juntar {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 2rem;
+}
+
+#experiencias h2 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 3rem;
+    background-color: #BBBB;
+    padding: 1rem;
+    width: 20%;
+    border-left: 1rem solid #1B1D2D;
+
+}
+
+#experiencias p {
+    width: 40%;
+}
+
+.abbr-edit {
+    text-decoration: none;
+    color: #c2a5a5;
+}
+
+.abbr-edit:hover {
+    cursor: help;
+    opacity: 0.4;
+}
